@@ -1,0 +1,13 @@
+.image-placeholderlight {
+    width: 100%;
+    height: 200px;
+    background-color: #b08383;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 8px;
+  }

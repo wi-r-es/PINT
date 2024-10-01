@@ -1,0 +1,115 @@
+.banner img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .profile-container {
+    margin-top: -50px; /* To overlap the profile picture with the banner */
+  }
+  
+  .profile-sidebar {
+    text-align: center;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .profile-pic-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .edit-profile-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #00c2ff;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+  
+  .edit-profile-icon:hover {
+    background: #007bff;
+  }
+  
+  .profile-sidebar h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .profile-sidebar h4 {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  .contact-info i {
+    margin-right: 10px;
+  }
+  
+  .profile-content {
+    padding: 20px;
+  }
+  
+  .profile-content h3 {
+    border-bottom: 2px solid #00c2ff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .post-card {
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .post-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 15px;
+  }
+  
+  .post-card h4 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .post-card p {
+    color: #6c757d;
+  }
+  
+  .post-card .btn {
+    background-color: #00c2ff;
+    border-color: #00c2ff;
+  }
+  .bigger{
+    font-size: 30px;
+    position: absolute;
+  }
+
+  .edit-preferences{
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }

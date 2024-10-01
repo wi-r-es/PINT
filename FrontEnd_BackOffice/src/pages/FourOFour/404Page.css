@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .vh-100 {
+    height: 100vh;
+  }
+  
+  .text-primary {
+    color: #00BFFF !important;
+  }
+  
+  .softinsaButtonn {
+    background-color: #00BFFF;
+    border-color: #00BFFF;
+  }
+  
+  .softinsaButtonn:hover {
+    background-color: #00A1CC;
+    border-color: #00A1CC;
+  }
+  
+  .softinsa-logo {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .softinsa-logo {
+      max-width: 150px;
+    }
+  }
+  

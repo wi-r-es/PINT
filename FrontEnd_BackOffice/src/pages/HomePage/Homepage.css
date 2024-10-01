@@ -1,0 +1,52 @@
+.SoftinsaBanner {
+  height: 15vw;
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+
+.homepage-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2rem;
+}
+
+.category-card {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding-right: 100px;
+}
+
+.SoftinsaBanner {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.center-calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-category{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardF{
+  width: 24vh !important;
+  height: 30vh !important;
+}

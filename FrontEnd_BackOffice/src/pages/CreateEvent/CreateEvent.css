@@ -1,0 +1,67 @@
+.image-placeholder {
+  width: 100%;
+  height: 200px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.image-placeholder span {
+  font-size: 24px;
+  color: #00f;
+}
+
+.image-placeholder img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.bg-light {
+  background-color: #e0f7fa !important;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.softinsaButton {
+  background-color: #00b0ff !important;
+  border: none !important;
+}
+
+.input-group-text {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.custom-input-group .form-control,
+.custom-input-group .input-group-text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-input-group .form-control {
+    height: auto; /* Ensures the input scales correctly */
+}
+
+.custom-input-group .input-group-text {
+    height: auto; /* Ensures the input group text scales correctly */
+}
+
+.margin4{
+  margin-top: 25px;
+}

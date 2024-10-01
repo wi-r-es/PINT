@@ -1,0 +1,53 @@
+.custom-modal-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: none;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+  }
+  
+  .custom-modal-body {
+    padding: 20px;
+    font-size: 1rem;
+    background-color: #f8f9fa;
+  }
+  
+  .custom-modal-footer {
+    background-color: #f1f1f1;
+    border-top: none;
+  }
+  
+  .post-header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #343a40;
+  }
+  
+  .post-content p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #495057;
+  }
+  
+  .post-footer p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #495057;
+  }
+  
+  .post-footer p strong {
+    color: #007bff;
+  }
+  
+
+  
+  button.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  button.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  

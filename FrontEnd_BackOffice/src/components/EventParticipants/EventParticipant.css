@@ -1,0 +1,52 @@
+.participant-container {
+    width: 22rem;
+    height: auto;
+    border-color: #00BFFF;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    margin: auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.card-title {
+    text-align: center;
+    color: #333;
+}
+
+.participant-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 300px; /* Set the max-height for scrollable area */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.participant-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px 25px 15px;
+    border: none;
+}
+
+.participant-pic {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.area-item {
+    padding: 15px 25px 25px 15px;
+    border: none;
+}
+
+.form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}

@@ -1,0 +1,15 @@
+.albums-container {
+    padding-top: 20px;
+  }
+  
+  .photo-img {
+    object-fit: cover;
+    height: 250px;
+  }
+  
+  .album-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  

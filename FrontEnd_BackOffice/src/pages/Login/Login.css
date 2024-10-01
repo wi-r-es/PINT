@@ -1,0 +1,111 @@
+
+
+.softshares-wrapper {
+  font-family: Arial, sans-serif;
+}
+
+.softshares {
+  font-size: 2.5rem;
+}
+
+.softshares span:first-child {
+  color: #000;
+}
+
+.softshares .shares {
+  color: #00b0ff;
+}
+
+.welcome-text {
+  font-size: 1.25rem;
+  color: #333;
+  margin-top: -10px; /* Adjusted margin to remove distance */
+}
+
+.person-circle-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.input-fields .form-control {
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+}
+
+/* Adjust input field sizes on larger screens */
+@media (min-width: 992px) {
+  .input-fields .form-control {
+    font-size: 0.875rem;
+    padding: 0.5rem 0.75rem;
+  }
+}
+
+.component-1,
+.password-reset {
+  font-size: 0.875rem;
+  color: #007bff;
+}
+
+.login-button {
+  background-color: #00b0ff;
+  border: none;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 4.25rem;
+}
+.login-button:hover {
+  background-color: #04a3ed;
+}
+
+.separator {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator hr {
+  flex-grow: 1;
+}
+
+.separator .px-3 {
+  padding: 0 1rem;
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+.sso-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.sso-button img {
+  margin-right: 0.5rem;
+}
+
+.privacy-policies,
+.terms-of-service {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+.vertical-bar {
+  display: inline-block;
+  width: 1px;
+  height: 1rem;
+  background-color: #6c757d;
+}
+
+.is-invalid {
+  border-color: red !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+}

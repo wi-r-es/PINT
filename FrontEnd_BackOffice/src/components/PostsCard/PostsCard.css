@@ -1,0 +1,122 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px;
+  margin: 16px;
+  height: 450px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin: 0;
+  flex-grow: 1; /* Ensure title takes up available space */
+}
+
+.card-rating {
+  display: flex;
+  align-items: center;
+}
+
+.card-rating .star {
+  color: #ffc107;
+  margin-left: 4px; /* Add margin to the left to space stars from title */
+}
+
+.card-text {
+  margin: 0 0 16px;
+  text-align: left; /* Align text to the left */
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #f7f7f7;
+  border-top: 1px solid #ddd;
+}
+
+.card-footer .poster {
+  font-size: 0.875rem;
+  color: #555;
+}
+
+.btn2 {
+  padding: 8px 16px;
+  background-color: #00c2ff;
+  color: #fff;
+  text-align: left;
+  float: left;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background-color: #0056b3;
+}
+
+.card-header {
+  border-bottom: none;
+}
+
+.card-title {
+  margin: 0;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+.dropdown-toggle-no-caret::after {
+  display: none;
+}
+
+.DeleteDropdownItem {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+
+.EditDropdownItem {
+  background-color: #00c2ff;
+  color: white;
+  border-radius: 5px;
+}
+
+.dropdown-menu {
+  margin: 0; /* Remove margins */
+  padding: 0; /* Remove padding */
+  border: none; /* Remove border if needed */
+}
+
+.dropdown-toggle-no-caret{
+  color: black;
+}
+
+.softinsa-color{
+  color: #00c2ff;
+}
+
+.softinsaBackColor{
+  background-color: #00c2ff;
+  border: none;
+}

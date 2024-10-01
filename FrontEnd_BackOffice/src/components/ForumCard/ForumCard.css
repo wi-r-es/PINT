@@ -1,0 +1,92 @@
+.cardF {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    margin: 16px;
+    height: 250px;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .cardF:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+    flex-grow: 1;
+    color: #333;
+  }
+  
+  .card-text {
+    margin: 12px 0 16px;
+    color: #555;
+  }
+  
+  .btn2 {
+    padding: 8px 16px;
+    background-color: #00c2ff;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn2:hover {
+    background-color: #008cba;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: #f7f7f7;
+    border-top: 1px solid #ddd;
+  }
+  
+  .dropdown-toggle-no-caret::after {
+    display: none;
+  }
+  
+  .EditDropdownItem {
+    color: #fff;
+    background-color: #00c2ff;
+    border-radius: 4px;
+  }
+  
+  .dropdown-menu {
+    padding: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-toggle-no-caret {
+    color: #333;
+  }
+  
+  .softinsaBackColor {
+    background-color: #00c2ff;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .softinsaBackColor:hover {
+    background-color: #008cba;
+  }
+  
+  .ml-auto2{
+    margin-top: 2rem;
+    margin-left: auto;
+  }
