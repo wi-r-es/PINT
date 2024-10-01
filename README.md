@@ -1,4 +1,4 @@
-# PINT
+# PINT Projeto Integrado - Integrated Projetc
  Project developed for Integrated Project (Curricular Unit) with Softinsa.
 
 My part of the project was the development of the backend and API, alongside the database.
